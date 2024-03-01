@@ -11,6 +11,8 @@ from pdf2image import convert_from_path
 from transformers import AutoTokenizer, TextStreamer, pipeline
 import os
 import gdown
+#requirements 
+
 
 # Check if CUDA is available
 DEVICE = "cuda:0" if torch.cuda.is_available() else "cpu"
