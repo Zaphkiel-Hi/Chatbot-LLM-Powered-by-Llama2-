@@ -1,4 +1,3 @@
-Sure, based on the imports in your code, here is a `requirements.txt` file that you can use to install the necessary libraries:
 
 ```plaintext
 streamlit==0.89.0
