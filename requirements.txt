@@ -1,1 +1,24 @@
+Sure, based on the imports in your code, here is a `requirements.txt` file that you can use to install the necessary libraries:
 
+```plaintext
+streamlit==0.89.0
+torch==1.10.0
+auto-gptq==1.0.0  # Note: Replace with the actual version if available
+langchain==0.5.0  # Note: Replace with the actual version if available
+pdf2image==1.16.0
+transformers==4.14.3
+gdown==3.13.0
+```
+
+Make sure to check for the latest versions of these libraries and update the version numbers accordingly. You can do this by visiting the respective GitHub repositories or using the `pip show` command for each library.
+
+To install the requirements using this file, you can run:
+
+```bash
+pip install -r requirements.txt
+```
+
+Additionally, ensure that you have the necessary dependencies for libraries like PyTorch and Hugging Face Transformers, as they might require specific configurations based on your system. You can find installation instructions on their respective websites:
+
+- [PyTorch](https://pytorch.org/get-started/locally/)
+- [Hugging Face Transformers](https://huggingface.co/transformers/installation.html)
