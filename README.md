@@ -1,6 +1,5 @@
 # Chatbot-LLM-Powered-by-Llama2-
 A Frontend Development of Data Extraction LLM Project. 
-Sure, let's break down the code and explain each component for a comprehensive README on GitHub:
 
 ```python
 import streamlit as st
